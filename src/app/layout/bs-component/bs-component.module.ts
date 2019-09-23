@@ -5,21 +5,7 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
 
 import { BsComponentRoutingModule } from './bs-component-routing.module';
 import { BsComponentComponent } from './bs-component.component';
-import {
-    AlertComponent,
-    ButtonsComponent,
-    ModalComponent,
-    CollapseComponent,
-    DatePickerComponent,
-    DropdownComponent,
-    PaginationComponent,
-    PopOverComponent,
-    ProgressbarComponent,
-    TabsComponent,
-    RatingComponent,
-    TooltipComponent,
-    TimepickerComponent
-} from './components';
+
 import { PageHeaderModule } from '../../shared';
 
 @NgModule({
@@ -32,20 +18,7 @@ import { PageHeaderModule } from '../../shared';
         PageHeaderModule
     ],
     declarations: [
-        BsComponentComponent,
-        ButtonsComponent,
-        AlertComponent,
-        ModalComponent,
-        CollapseComponent,
-        DatePickerComponent,
-        DropdownComponent,
-        PaginationComponent,
-        PopOverComponent,
-        ProgressbarComponent,
-        TabsComponent,
-        RatingComponent,
-        TooltipComponent,
-        TimepickerComponent
+        BsComponentComponent
     ]
 })
 export class BsComponentModule {}
